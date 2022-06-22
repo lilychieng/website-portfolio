@@ -27,7 +27,7 @@ export default function Home() {
             <PostCard post={post} key={post.title} />
           ))} */}
         </div>
-        <div classname="lg:col-span-4 col-span-1">
+        <div className="lg:col-span-4 col-span-1">
           <div className="lg:sticky relative top-8">
             <PostWidget />
             <Categories />
